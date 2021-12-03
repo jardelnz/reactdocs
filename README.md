@@ -1,4 +1,4 @@
-# Passos para executar o projeto
+# Controle de recados
 
 Projeto iniciado com [Create React App](https://github.com/facebook/create-react-app).
 
@@ -8,16 +8,17 @@ Na pasta do projeto execute
 
 ### `npm start`
 
-Executando em modo de desenvolvimento.\
+Assim você estará executando em modo de desenvolvimento.\
 Abra [http://localhost:3000](http://localhost:3000) para visualizar no navegador.
 
-A página é recarreagada automaticamente quando você faz alterações.\
+A página é recarreagada automaticamente quando você faz alterações no código.\
 Também são exibidos erros quando existirem.
 
 ### `npm run build`
 
-Compila o aplicativo para produção `build` folder.\
-Construção correta do React no modo de produção com desempenho otimizado.
+Esse comando compila o aplicativo para produção na pasta `build`.\
+Usando o comando você vai obter a construção correta do aplicativo em React com desempenho otimizado.
 
-### Página para visualização do status atual
+## Status atual
+Para acessar o aplicativo no seu status atual acesso: .\
 [https://jardel.net.br/react/](https://jardel.net.br/react/)
