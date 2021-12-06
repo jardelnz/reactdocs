@@ -3,12 +3,12 @@ import "./estilo.css";
 class CardNota extends Component {
   render() {
     return (
-      <section className="card-nota">
-        <header className="card-nota_cabecalho">
-          <h3 className="card-nota_titulo">{this.props.titulo}</h3>
-        </header>
-        <p className="card-nota_texto">{this.props.text}</p>
-      </section>
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">{this.props.titulo}</h5>
+    <p class="card-text">{this.props.text}</p>
+  </div>
+</div>
     );
   }
 }

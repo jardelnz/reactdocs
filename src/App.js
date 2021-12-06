@@ -3,12 +3,15 @@ import ListaDeNotas from "./components/ListaDeNotas";
 import FormularioCadastro from "./components/FormularioCadastro";
 import "./assets/App.css";
 import './assets/index.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/bootstrap/dist/js/bootstrap';
+
 class App extends Component {
 
   constructor() {
     super();
     this.state = {
-      notas:[]
+      notas: []
     };
   }
 
@@ -24,8 +27,10 @@ class App extends Component {
   render() {
     return (
       <section className="conteudo">
-        <FormularioCadastro criarNota={this.criarNota.bind(this)} />
-        <ListaDeNotas notas={this.state.notas} />
+
+          <FormularioCadastro criarNota={this.criarNota.bind(this)} />
+          <ListaDeNotas notas={this.state.notas} />
+
       </section>
     );
   }
